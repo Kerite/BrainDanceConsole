@@ -115,7 +115,6 @@ def chat():
         history = data['history']
 
         print(f"Received chat message from user {user_id}: {message}")
-        print(f"History: {history}")
 
         # Use a generator function for streaming response
         def generate():
